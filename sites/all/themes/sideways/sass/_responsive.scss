@@ -1,0 +1,367 @@
+@media screen and (max-width:940px)
+{
+	.view-weekly-features,
+	.view-widget-blocks,
+	.view-features
+	{
+		font-size:1em;
+	}
+
+	#contact-map 
+	{
+		width:calc(100% - 250px);
+	}
+
+	.front #block-system-main
+	{
+		line-height:100%;
+	}
+}
+
+@media screen and (max-width:768px), screen and (device-width:1024px) and (device-height:768px)
+{
+	#logo
+	{
+		padding:10px 0 0 0;
+
+		img 
+		{
+			width:80px;
+		}
+	}
+
+	#block-system-main-menu .content 
+	{
+		ul li a 
+		{
+			padding:8px 0;
+		}
+	}
+
+	#block-menu-menu-social-menu
+	{
+		position:static;
+		margin-bottom:20px;
+
+		ul
+		{
+			text-align:center;
+
+			li 
+			{
+				float:none;
+				display:inline-block;
+
+				&.first 
+				{
+					margin-left:0;
+				}
+			}
+		}
+	}
+
+	#navigation 
+	{
+		background-size:cover;
+	}
+
+	#header > div > div,
+	#navigation
+	{
+		height:500px;
+	}
+
+	#content
+	{
+
+		img 
+		{
+			max-width:100%;
+			height:auto!important;
+		}
+	}
+
+	#widgets
+	{
+		text-align:center;
+
+		.block 
+		{
+			float:none;
+			display:inline-block;
+			width:100%;
+			max-width:300px;
+			margin:10px auto!important;
+			padding-top:300px;
+		}
+	}
+
+	#footer
+	{
+		text-align:center;
+		padding-bottom:40px;
+
+		#block-block-3,
+		#block-block-4
+		{
+			float:none;
+			display:inline-block;
+			vertical-align:top;
+			margin-bottom:20px;
+		}
+	}
+
+	.view-features
+	{
+		.grouping
+		{
+			float:none;
+			width:auto;
+			margin-right:0;
+			text-align:center;
+		}
+
+		.views-row 
+		{
+			max-width:300px;
+			padding-top:300px;
+			display:inline-block;
+			vertical-align:top;
+		}
+	}
+
+	#contact-map
+	{
+		position:static;
+		width:100%;
+
+		iframe
+		{
+			width:100%;
+			height:300px;
+		}
+	}
+
+	#widgets #block-block-6
+	{
+		display:block;
+		width:auto;
+		float:none;
+		padding-top:0;
+
+		& > .content 
+		{
+			position:static;
+		}
+	}
+
+	.view-menus
+	{
+		& > .view-content .views-row
+		{
+			width:46.5%;
+		}
+
+		.legend 
+		{
+			float:none;
+			margin-right:0;
+			margin-top:15px;
+			text-align:center;
+		}
+
+		.legend ~ .view-menu-footers
+		{
+			margin-top:0;
+		}
+	}
+
+	.view-menu-footers
+	{
+		.views-row
+		{
+			display:block;
+
+			&:before
+			{
+				display:none;
+			}
+
+			& > div
+			{
+				&:before,
+				&:after
+				{
+					display:none;
+				}
+			}
+		}
+	}
+
+	.view-features .grouping
+	{
+		& > div
+		{
+			padding-left:0;
+			padding-right:0;
+		}
+
+		&.grouping-weekly > div > div > h3
+		{
+			margin-left:-30px;
+			padding-left:30px;
+		}
+		&.grouping-promo > div > div > h3
+		{
+			margin-right:-30px;
+			padding-right:30px;
+		}
+	}
+}
+
+@media screen and (max-width:640px)
+{
+	.view-events .views-row
+	{
+		.views-field 
+		{
+			padding-left:0;
+		}
+
+		.views-field-field-event-image
+		{
+			float:none;
+			text-align:center;
+		}
+
+		.views-field-title 
+		{
+			font-size:2em;
+			margin-left:0;
+			text-align:center;
+		}
+	}
+	
+	.view-photos .views-row
+	{
+		float:none;
+	}
+}
+
+@media screen and (max-width:540px)
+{
+	#footer #block-menu-block-2
+	{
+		ul li a
+		{
+			width:32px;
+			height:32px;
+			background-size:contain;
+		}
+	}
+
+	#block-menu-menu-social-menu
+	{
+		margin-bottom:10px;
+	}
+
+	.view-menus
+	{
+		& > .view-content .views-row
+		{
+			width:100%;
+			margin-left:0;
+			margin-right:0;
+		}
+
+		h3 
+		{
+			width:auto;
+		}
+	}
+
+	.front #block-system-main
+	{
+		padding:30px 20px;
+	}
+
+	#navigation
+	{
+		background:none;
+		display:none;
+	}
+
+	#header
+	{
+		position:static;
+
+		& > div > div 
+		{
+			height:auto;
+			width:auto;
+			background:none;
+			box-shadow:none;
+			float:none;
+		}
+	}
+
+	#block-system-main-menu .content ul
+	{
+		width:270px;
+		margin:0 auto 10px auto;
+		overflow:hidden;
+
+		li 
+		{
+			float:left;
+			width:50%;
+		}
+	}
+
+	#block-menu-menu-social-menu
+	{
+		clear:both;
+		position:absolute;
+		top:215px;
+		width:100%;
+		text-align:center;
+	}
+
+	#logo 
+	{
+		margin-bottom:50px;
+	}
+
+	#widgets
+	{
+		& > div > div 
+		{
+			padding:0 10px;
+		}
+
+		.block 
+		{
+			margin:5px 0!important;
+		}
+
+		#block-block-5
+		{
+			display:block;
+			padding-top:0;
+			max-width:none;
+
+			& > .content 
+			{
+				position:static;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:420px)
+{
+	.view-features .views-row 
+	{
+		padding-top:100%;
+	}
+}

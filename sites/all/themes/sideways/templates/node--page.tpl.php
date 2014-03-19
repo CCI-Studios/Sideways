@@ -1,0 +1,1 @@
+<?php print views_embed_view('basic_page', 'block', $node->nid); ?>
