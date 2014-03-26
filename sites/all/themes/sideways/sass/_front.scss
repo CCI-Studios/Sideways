@@ -1,4 +1,4 @@
-.front
+body.home
 {
 	#page-title
 	{
@@ -46,5 +46,185 @@
 	{
 		background:none;
 		padding:30px 60px;
+	}
+}
+
+html 
+{
+	height:100%;
+}
+body.front
+{
+	height:100%;
+	text-align:center;
+
+	#left 
+	{
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:50%;
+		background:url(../images/paper.jpg);
+
+		& > div
+		{
+			padding-right:13px;
+		}
+
+		a 
+		{
+			color:black;
+			text-decoration:none;
+		}
+
+		a.sideways
+		{
+			height:400px;
+			line-height:400px;
+			display:block;
+			margin-top:25px;
+			margin-bottom:40px;
+
+			img 
+			{
+				vertical-align:middle;
+				max-width:100%;
+				max-height:100%;
+			}
+		}
+	}
+
+	#middle 
+	{
+		position:absolute;
+		top:0;
+		left:50%;
+		height:100%;
+		width:20px;
+		margin-left:-13px;
+		border-left:3px solid black;
+		border-right:3px solid white;
+		background:#981b1e;
+		z-index:1;
+	}
+
+	#right 
+	{
+		position:absolute;
+		top:0;
+		right:0;
+		height:100%;
+		width:50%;
+		background:url(../images/brick.jpg);
+		color:white;
+
+		& > div
+		{
+			padding-left:13px;
+		}
+
+		a 
+		{
+			color:white;
+			text-decoration:none;
+		}
+
+		a.limbo
+		{
+			height:400px;
+			line-height:400px;
+			display:block;
+			margin-top:25px;
+			margin-bottom:40px;
+
+			img 
+			{
+				vertical-align:middle;
+				max-width:100%;
+				max-height:100%;
+			}
+		}
+	}
+
+	#bottom 
+	{
+		position:absolute;
+		bottom:0;
+		left:50%;
+		height:113px;
+		width:288px;
+		margin-left:-144px;
+		z-index:2;
+		background:url(../images/best-of-both-worlds.png) no-repeat top left;
+	}
+
+	a.enter
+	{
+		display:inline-block;
+		width:250px;
+		color:white!important;
+		text-transform:uppercase;
+		line-height:175%;
+		font-weight:bold;
+		font-size:2em;
+		text-decoration:none;
+		background:url(../images/paper-red.jpg);
+		margin:20px 0 40px 0;
+
+		&:hover
+		{
+			opacity:0.9;
+		}
+	}
+
+	ul.social
+	{
+		list-style:none;
+		margin:0;
+		padding:0;
+		text-align:center;
+		line-height:60px;
+
+		li 
+		{
+			display:inline-block;
+			margin-left:2px;
+			padding:0;
+
+			&.first 
+			{
+				margin-left:0;
+			}
+
+			a 
+			{
+				vertical-align:middle;
+				display:inline-block;
+				width:48px;
+				height:48px;
+				background-position:top left;
+				background-repeat:no-repeat;
+				text-indent:-99999px;
+
+				&.facebook 
+				{
+					background-image:url(../images/fb.png);
+				}
+				&.twitter 
+				{
+					background-image:url(../images/tw.png);
+				}
+				&.instagram 
+				{
+					background-image:url(../images/ig.png);
+				}
+
+				&:hover
+				{
+					opacity:0.9;
+				}
+			}
+		}
 	}
 }
