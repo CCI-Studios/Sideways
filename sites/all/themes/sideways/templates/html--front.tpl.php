@@ -48,7 +48,7 @@
 <head>
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-  <meta name="viewport" content="width=500, initial-scale=1">
+  <meta name="viewport" content="width=500">
   <script type="text/javascript" src="//use.typekit.net/nwh6eir.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <?php print $styles; ?>

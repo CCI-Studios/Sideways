@@ -22,9 +22,12 @@ h3
 {
 	font-size:2em;
 }
-h4
+h4 
 {
-	font-weight:normal;
+	font-size:1.5em;
+}
+h5 
+{
 	font-size:1em;
 }
 
@@ -274,29 +277,6 @@ h4
 	{
 		margin-left:20px;
 		margin-bottom:0.8em;
-	}
-
-	h2, h3, h4, h5 
-	{
-		color:$red;
-		font-weight:300;
-		line-height:115%;
-	}
-	h2 
-	{
-		font-size:3em;
-	}
-	h3 
-	{
-		font-size:2em;
-	}
-	h4 
-	{
-		font-size:1.5em;
-	}
-	h5 
-	{
-		font-size:1em;
 	}
 
 	& > div 
@@ -915,6 +895,7 @@ body.events
 		margin-right:2.127%;
 		float:left;
 		position:relative;
+		overflow:hidden;
 
 		&:before
 		{
@@ -934,6 +915,8 @@ body.events
 			{
 				padding:20px 30px 30px 30px;
 				position:relative;
+				max-width:300px;
+				margin:0 auto;
 
 				& > h3 
 				{
@@ -955,7 +938,7 @@ body.events
 						left:30px;
 						right:30px;
 						height:4px;
-						background:url(../images/dots.png);
+						background:url(../images/dots.png) center top;
 					}
 				}
 			}
@@ -963,16 +946,16 @@ body.events
 
 		&.grouping-weekly > div > div > h3
 		{
-			margin-left:-60px;
-			padding-left:60px;
+			margin-left:-80px;
+			padding-left:80px;
 			padding-right:20px;
 			margin-right:50%;
 			float:left;
 		}
 		&.grouping-promo > div > div > h3
 		{
-			margin-right:-60px;
-			padding-right:60px;
+			margin-right:-80px;
+			padding-right:80px;
 			padding-left:20px;
 			margin-left:50%;
 			float:right;
