@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sideways feature.
+ */
+
+include_once 'sideways.features.inc';
